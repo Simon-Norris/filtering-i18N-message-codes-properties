@@ -5,7 +5,7 @@ package com.ig.demoApp
  */
 import org.codehaus.groovy.grails.context.support.PluginAwareResourceBundleMessageSource
 
-class ExtendedPluginAwareResourceBundleMessageSource extends PluginAwareResourceBundleMessageSource {
+class CustomisedPluginAwareResourceBundleMessageSource extends PluginAwareResourceBundleMessageSource {
     List listMessageCodes(Locale locale, String lookupMessageCode) {
         Properties properties = getMergedProperties(locale).properties
         List listOfCodes = []

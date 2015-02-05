@@ -1,8 +1,8 @@
-import com.ig.demoApp.ExtendedPluginAwareResourceBundleMessageSource
+import com.ig.demoApp.CustomisedPluginAwareResourceBundleMessageSource
 
 // Place your Spring DSL code here
 beans = {
-    messageSource(ExtendedPluginAwareResourceBundleMessageSource)  {
+    messageSource(CustomisedPluginAwareResourceBundleMessageSource)  {
         basenames = "WEB-INF/grails-app/i18n/messages"
     }
 }
