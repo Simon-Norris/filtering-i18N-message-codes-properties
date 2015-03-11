@@ -17,7 +17,7 @@ class CustomisedPluginAwareResourceBundleMessageSourceSpec extends Specification
     void "test listMessageCodes"() {
         setup:
         Locale locale = new Locale('en', 'US')
-        String lookupMessageCode = 'networkAndCircuits'
+        String lookupMessageCode = 'black'
         messageSource.metaClass.getMergedProperties = { final Locale tempLocale ->
             Properties properties = new Properties()
             properties.setProperty('square.black.label', 'Black Square')
