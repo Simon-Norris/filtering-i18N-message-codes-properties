@@ -1,7 +1,9 @@
 package com.ig.demoApp
 
 import spock.lang.Specification
+import spock.util.mop.ConfineMetaClassChanges
 
+@ConfineMetaClassChanges(CustomisedPluginAwareResourceBundleMessageSource)
 class CustomisedPluginAwareResourceBundleMessageSourceSpec extends Specification {
     CustomisedPluginAwareResourceBundleMessageSource messageSource
 
